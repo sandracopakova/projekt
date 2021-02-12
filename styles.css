@@ -1,0 +1,167 @@
+/*color: #2D5DCC; 
+color: #739DFF
+#517EE8
+#9C7417
+#E8BB51
+
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Cormorant Garamond', serif;*/
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#27849C,#51CAE8);
+    background-color: #27849C;
+}
+
+.container {
+    width: 60%;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    color: hsl(0, 0%, 19%);
+    padding-top: 2rem;
+    text-transform: uppercase;
+    background-color: hsl(0, 0%, 90%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.mainHeader {
+    margin-top: 0;
+}
+
+nav {
+    background-color: #51CAE8;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    color: #050709;
+}
+
+nav li a:hover {
+    background-color: #E8D93A;
+}
+
+section:first-child {
+    margin-top: 11rem;
+}
+
+h1, 
+h2,
+h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+section {
+    border: 1px solid #27849C;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    box-shadow: 0 1px 1px rgb(16 27 30 / 15%), 0 2px 2px rgb(16 27 30 / 15%), 0 4px 4px rgb(16 27 30 / 15%), 0 8px 8px rgb(16 27 30 / 15%), 0 16px 16px rgb(16 27 30 / 15%);
+    background-color: hsl(0, 0%, 90%);
+}
+
+.fonts {
+    margin-top: 3rem;
+}
+
+.fonts h3 {
+    text-transform: uppercase;
+}
+
+.textStyles {
+    margin-top: 3rem;
+}
+
+img {
+    width: 30%;
+}
+
+.firstLi {
+    text-transform: uppercase;
+}
+.colors > h2{
+    text-transform: uppercase;
+}
+
+.fonts > h2 {
+    text-transform: uppercase;
+}
+
+.textStyles > h2 {
+    text-transform: uppercase;
+}
+
+.styleMainHeader,
+.h1 .fontWeight {
+    font-weight: 700;
+}
+
+.styleMainHeader,
+.h1 .fontSize {
+    font-size: 26px;
+}
+
+.styleMainHeader,
+.h1 .fontFamily {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.styleSubheader,
+.h2 .fontWeight {
+    font-weight: 500;
+}
+
+.styleSubheader,
+.h2 .fontSize {
+    font-size: 18px;
+}
+
+.styleSubheader,
+.h2 .fontFamily {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.styleParagraph,
+.p .fontWeight {
+    font-weight: 500;
+}
+
+.styleParagraph,
+.p .fontSize {
+    font-size: 14px;
+}
+
+.styleParagraph,
+.p .fontFamily {
+    font-family: 'Fira Sans', sans-serif;
+}
